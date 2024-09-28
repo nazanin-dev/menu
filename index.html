@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{padding: 0;
+    margin: 0;
+  box-sizing: border-box;}
+  body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     background-image:linear-gradient(rgba(58, 55, 55, 0.767),rgba(37, 36, 36, 0.012)),url(./david-svihovec-5qMN7iXbUsk-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container{
+    margin: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  .menu{
+    /* border: 2px solid yellow; */
+    width: 20%;
+    background-color: rgba(61, 53, 53, 0.514);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+    
+    /* flex-direction: column; */
+    /* >h2{
+      /* padding-top: 10px;
+      padding-left: 9px; */
+      
+    
+    >ul{
+      /* border: 2px solid rgb(75, 249, 90);
+      background-color: rgb(91, 179, 28); */
+      
+      min-height: 100px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;margin: 0;
+      
+      
+      
+     >li{
+      width: 100%;
+      /* border: 1px solid orangered; */
+      list-style-type: none;
+      height: 15%;
+      position: relative;
+      
+      
+      >a{
+
+        text-decoration: none;
+        border-color: blue;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding-left: 9px;
+        color: white;
+        font-style: 20px;
+        text-transform: uppercase;
+        &:hover{
+          background-color: rgba(249, 249, 249, 0.864);
+          color:  rgb(36, 36, 209);
+        }
+      }
+      &:hover ul{
+        display: block;
+        transition: 9s;
+      }
+      >ul{
+        display: none;
+        /* border: 1px solid rgb(70, 67, 67); */
+        position: absolute;
+        top: 0;
+        left: 295px;
+        width: 200px;
+        
+        list-style-type: none;
+        >li{
+          width: 100%;
+          height: 30px;
+          /* border: 1px solid yellow; */
+          background-color: rgba(54, 49, 49, 0.4);
+          border-bottom: 1px solid rgb(78, 76, 76);
+        
+         a{
+          display: flex;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          /* border: 2px solid rgb(175, 
+          33, 107); */
+          
+          text-decoration: none;
+          padding: 10px 15px;
+            font-size: 17px;
+          color: rgb(36, 36, 209);;
+          &:hover{
+            background-color: rgba(61, 58, 58, 0.73);
+
+          }
+         }
+        }
+
+      }
+     }
+    }
+
+  }
+
+  .text{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 150px;
+    
+    
+    
+    background-color: rgba(112, 104, 104, 0.16);
+   >h2{
+    color:  rgb(58, 58, 180);
+    padding-bottom: 75px;
+   }
+    
+   >pre{
+    
+    padding: 20px;
+    padding-bottom: 135px;
+    font-size: 19px;
+    color: rgb(14, 14, 183);
+    font-weight: bold;
+    p {
+  
+}
+
+    
+  }
+  >button{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(246, 246, 240, 0.925);
+    border: none;
+    color: rgb(36, 36, 209);
+    font-size: larger;
+    
+    &:hover{
+      color: rgb(240, 240, 244);
+      background-color: rgb(36, 36, 209);
+    }
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="menu">
+      <!-- <h2>Menu</h2> -->
+      <ul>
+        <li><a href="#">home</a></li>
+
+        <li><a href="#">models</a>
+        <ul class="submenu">
+          <li><a href="#">Series 9</a></li>
+          <li><a href="#">Series SE</a></li>
+          <li><a href="#">Series Ultra</a></li>
+        </ul></li>
+
+        <li><a href="#">support</a></li>
+
+
+        <li><a href="#">features</a>
+          <ul class="submenu">
+            <li><a href="#">Health Tracking</a></li>
+            <li><a href="#">Fitness</a></li>
+            <li><a href="#">Notifications</a></li>
+        </ul>
+      </li>
+
+        <li><a href="#">buy now</a></li>
+      </ul>
+    </nav>
+    <main class="text">
+      <h2>The newest Series of iwatch</h2>
+      <pre>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Illum sit culpa amet qui cupiditate odio eligendi.
+              Accusantium rerum numquam, aliquam iusto nobis quos illo laboriosam maxime.
+
+               </pre>
+      <button>buy it now</button>
+    </main>
+  </div>
+</body>
+</html>
